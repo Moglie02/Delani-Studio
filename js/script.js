@@ -10,3 +10,9 @@ $(document).ready(function(){
       });
       $('.development').hide();
   });
+  $(document).ready(function(){
+    $('#product-images').on('click', function(){
+      $('.product').toggle({});
+      });
+      $('.product').hide();
+  });
