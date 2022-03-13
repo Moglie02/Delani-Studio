@@ -67,3 +67,23 @@
 background: transparent;
 color: white;
 }
+.Hover_designKenya{
+    display: none;
+  
+    color: white;
+  
+    font-weight: bold;
+ 
+    position: relative;
+ 
+    top: -170px;
+  
+    left: 2px;
+  
+    text-align: center;
+}
+.portfolio-hover{
+    outline: 3px solid white;
+    outline-offset: -15px;
+    opacity: 0.6;
+  }

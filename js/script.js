@@ -16,3 +16,19 @@ $(document).ready(function(){
       });
       $('.product').hide();
   });
+
+
+
+  $(document).ready(function(){
+  $(".custom-info-on-portfolio-images img").hover(
+    function () {
+      $(this).addClass("portfolio-hover");
+      var index = $(".custom-info-on-portfolio-images img").index(this);
+      $(".Hover_designKenya").eq(index).show();
+    },
+    function () {
+      $(this).removeClass("portfolio-hover");
+      var index = $(".custom-info-on-portfolio-images img").index(this);
+      $(".Hover_designKenya").eq(index).hide();
+    }
+  )});
