@@ -27,3 +27,43 @@
     text-align: center;
     padding: 20px;
 }
+.Contact{
+    background-image: url("../images/background-img/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+}
+.message{
+    text-align: center;
+    align-items: center;
+}
+.group{
+    background-color: transparent;
+    border: 0;
+}
+.footer{
+    align-items: center;
+}
+.services{
+    background-image: url("../images/background-img/s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+#form {
+    /* background-image: url(../assets/backgrounds/c_image.jpg); */
+    border-radius: 5px;
+    color: white;
+    padding-top: 30px;
+}    
+
+#email,#name ,#subject {
+background: transparent;
+color: white;
+}
